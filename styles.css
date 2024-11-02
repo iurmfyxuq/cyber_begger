@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #5087da;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+h2 {
+    color: #333;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    color: #5087da;
+}
+
+article a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    color: white;
+    background: #5087da;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+article a:hover {
+    background: #5087da;
+}
+
+footer {
+    background: #5087da;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.small-img {
+    width: 300px;  /* 或根据需要设置 */
+    height: auto;  /* 保持高宽比 */
+}
